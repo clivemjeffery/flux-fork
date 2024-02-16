@@ -1,3 +1,4 @@
+# original from Flux as forked
 /ble-spec/
 /ant-spec/
 /fit-spec/
@@ -7,7 +8,11 @@
 /src/simulation-scripts.js
 **/.DS_Store
 .cache
+.parcel-cache/
 notes.txt
 env.js
 package-lock.json
+
+# sensitive
+deploy.sh
 

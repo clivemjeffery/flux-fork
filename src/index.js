@@ -5,9 +5,9 @@ import './connectionManager.js';
 import './watch.js';
 import './course.js';
 import './lock.js';
-import { inject } from '@vercel/analytics';
+// import { inject } from '@vercel/analytics';
 
-inject();
+// inject();
 
 function startServiceWorker() {
     if('serviceWorker' in navigator) {
